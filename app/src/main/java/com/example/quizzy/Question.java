@@ -1,0 +1,57 @@
+package com.example.quizzy;
+
+public class Question {
+    public String questions[] = {
+            "When was Android 1.0 released?",
+            "How to kill an activity in Android?",
+            "What is the JSON exception in Android?",
+            "Are Jeeps better than Broncos?",
+            "Iphone's should be thrown in the trash?"
+    };
+
+    public String choices[][] = {
+            {"2005", "2006", "2007", "2008"},
+            {"finish()", "finishActivity(int requestCode)", "kill()", "A & B"},
+            {"JSon Exception", "Json Not found exception", "Input not found exception", "None of the above"},
+            {"Yes", "No", "Jeeps are the best", "Both A & C"},
+            {"Yes", "No", "Android is the best", "Both A & C"}
+    };
+
+    public String correctAnswer[] = {
+            "2008",
+            "A & B",
+            "JSon Exception",
+            "Both A & C",
+            "Both A & C"
+    };
+
+    public String getQuestion(int a){
+        String question = questions[a];
+        return question;
+    }
+
+    public String getchoice1(int a){
+        String choice = choices[a][0];
+        return choice;
+    }
+
+    public String getchoice2(int a){
+        String choice = choices[a][1];
+        return choice;
+    }
+
+    public String getchoice3(int a){
+        String choice = choices[a][2];
+        return choice;
+    }
+
+    public String getchoice4(int a){
+        String choice = choices[a][3];
+        return choice;
+    }
+
+    public String getCorrectAnswer(int a){
+        String answer = correctAnswer[a];
+        return answer;
+    }
+}
