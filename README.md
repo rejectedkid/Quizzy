@@ -7,7 +7,7 @@ This application was written for a school project.</p>
 <p><b>Project by:</b>	Kaalub Rittgers</p>
 <p></p>
 <p><b>Uses</p></b>
-<p>This application is developed for educational purposes, allowing the users to prepare for multiple-choice questions for different examinations.</p>
+<p>This application was developed for educational purposes, allowing the users to prepare for multiple-choice questions for different examinations.</p>
 <p></p>
 <p><b>Benefits</p></b>
 <p>•	Teachers could perform quizzes and prompts questions.</p>
