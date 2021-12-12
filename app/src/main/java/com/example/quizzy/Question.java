@@ -5,24 +5,24 @@ public class Question {
             "When was Android 1.0 released?",
             "How to kill an activity in Android?",
             "What is the JSON exception in Android?",
-            "Are Jeeps better than Broncos?",
-            "Iphone's should be thrown in the trash?"
+            "What company purchased Android?",
+            "Who created Android?"
     };
 
     public String choices[][] = {
             {"2005", "2006", "2007", "2008"},
             {"finish()", "finishActivity(int requestCode)", "kill()", "A & B"},
             {"JSon Exception", "Json Not found exception", "Input not found exception", "None of the above"},
-            {"Yes", "No", "Jeeps are the best", "Both A & C"},
-            {"Yes", "No", "Android is the best", "Both A & C"}
+            {"Amazon", "Google", "JcPenny", "None of the Above"},
+            {"Richard Stallman", "Grace Hopper", "Andy Rubin", "Bill Gates"}
     };
 
     public String correctAnswer[] = {
             "2008",
             "A & B",
             "JSon Exception",
-            "Both A & C",
-            "Both A & C"
+            "Google",
+            "Andy Rubin"
     };
 
     public String getQuestion(int a){
